@@ -3574,8 +3574,14 @@ ul.tabs li.active-tab{
     width: 100%;
     background-color: #FFFFFF;
     border: solid 1px #EEE;
-    padding: 8px;
+    padding: 8px 8px 38px;
     margin-bottom: 10px;
+}
+.gallery-filter-item input{
+    position:absolute;
+    width:88%;
+    margin-top:-48px;
+    margin-left:6%;
 }
 @media(min-width:768px){
     .gallery-filter-item{
