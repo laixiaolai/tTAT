@@ -3580,7 +3580,7 @@ ul.tabs li.active-tab{
 .gallery-filter-item input{
     position:absolute;
     width:88%;
-    margin-top:-53px;
+    margin-top:-55px;
     margin-left:6%;
 }
 @media(min-width:768px){
