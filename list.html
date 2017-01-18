@@ -30,7 +30,7 @@
     <script type="text/javascript" src="scripts/custom.js"></script>
 </head>
 
-<body class="no-sidebar">
+<body class="right-sidebar">
     <div id="preloader">
         <div id="status"> 
             <h3 class="center-text">欢迎</h3>
@@ -43,9 +43,56 @@
     <div id="header-fixed" class="header-style-1">
         <a class="header-1 open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
         <a class="header-logo" href="#"><img src="images/logo-dark2.png" alt="img"></a>
+        <a class="header-2 open-right-sidebar" href="#"><i class="fa fa-envelope-o"></i></a>
     </div>
     <div class="all-elements">
         <div class="snap-drawers">
+            <div class="snap-drawer snap-drawer-right">
+                <div id="dynamic-cart-inner">
+                    <div id="dynamic-cart-add-product-loader"><span>添加到购物车...</span></div>
+                    <div id="dynamic-cart-view-cart-loader"><span>载入购物车...</span></div>
+                    <div id="dynamic-cart-btn-wrapper"><a id="dynamic-cart-checkout-btn" href="#">查看购物车</a><a id="dynamic-cart-continue-btn" href=""><span>继续购物</span></a></div>
+                    <div id="dynamic-cart-header">
+                        <h2>您的购物车</h2></div>
+                    <div id="dynamic-cart-body">
+                        <div id="dynamic-cart-content-wrapper">
+                            <div id="dynamic-cart-content">
+                                <div id="dynamic-cart-header-row">
+                                    <div id="dynamic-cart-content-header-article">Article</div>
+                                    <div id="dynamic-cart-content-header-price">Price</div>
+                                    <div id="dynamic-cart-content-header-qty">Qty</div>
+                                    <div id="dynamic-cart-content-header-delete"></div>
+                                    <div id="dynamic-cart-content-header-sum">Total</div>
+                                </div>
+                                <div class="dynamic-cart-row" data-id="744" data-rec-id="64099" data-attribute-id="-1">
+                                    <a class="dynamic-cart-prod-img" href="/9-3-gen2/exterior-440/falgx440/10-spoke-75x18-alu65"><img src="images/12784446_445.jpg" alt=""></a>
+                                    <div class="dynamic-cart-prod-text"><a class="dynamic-cart-prod-name" href="/9-3-gen2/exterio r-440/falgx440/10-spoke-75x18-alu65">10-SPOKE 7,5x18" ALU65</a><span class="dynamic-cart-prod-sub">9-3 2003-12</span><span class="dynamic-cart-prod-artnr">Item number: 12763042</span>
+                                        <div class="dynamic-cart-prod-price"><span class="price">￥&nbsp;351.29</span><span class="separator">/</span><span class="qty-suffix">pcs</span></div>
+                                        <div class="dynamic-cart-prod-qty"><span class="title">件:</span><span class="value">1</span></div>
+                                        <div class="dynamic-cart-prod-delete"><span>X</span></div>
+                                        <div class="dynamic-cart-prod-total"><span>￥&nbsp;351.29</span></div>
+                                        <div class="dynamic-cart-件-changer"><span class="dynamic-cart-qty-changer-minus dynamic-cart-icon"></span><span class="dynamic-cart-qty-changer-plus dynamic-cart-icon"></span></div>
+                                    </div>
+                                </div>
+                                <div class="dynamic-cart-row even" data-id="2410" data-rec-id="64098" data-attribute-id="-1">
+                                    <a class="dynamic-cart-prod-img" href="/9-3-gen2/exterior-440/falgx440/5-spoke-flared-65x16150"><img src="images/32026150_506.jpg" alt=""></a>
+                                    <div class="dynamic-cart-prod-text"><a class="dynamic-cart-prod-name" href="/9-3-gen2/exterior-440/falgx440/5-spoke-flared-65x16150">5-SPOKE FLARED 6,5x16"</a><span class="dynamic-cart-prod-sub">9-3 2003-12</span><span class="dynamic-cart-prod-artnr">Item number: 32026150</span>
+                                        <div class="dynamic-cart-prod-price"><span class="price">￥&nbsp;162.00</span><span class="separator">/</span><span class="qty-suffix">pcs</span></div>
+                                        <div class="dynamic-cart-prod-qty"><span class="title">件:</span><span class="value">2</span></div>
+                                        <div class="dynamic-cart-prod-delete"><span>X</span></div>
+                                        <div class="dynamic-cart-prod-total"><span>￥&nbsp;324.00</span></div>
+                                        <div class="dynamic-cart-qty-changer"><span class="dynamic-cart-qty-changer-minus dynamic-cart-icon"></span><span class="dynamic-cart-qty-changer-plus dynamic-cart-icon"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="dynamic-cart-sum-total">
+                            <div>
+                                <div class="clear-both"></div><span id="dynamic-cart-dynamic-value">￥&nbsp;675.29</span><span id="dynamic-cart-dynamic-label">总计:</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="content" class="snap-content">
                 <div class="content">
                     <div class="header-clear"></div>
