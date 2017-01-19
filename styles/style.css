@@ -8,6 +8,7 @@
 .header-style-1 .header-logo img{width:110px;margin-top:20px;}
 .header-style-1 .header-2{color:#1f1f1f;float:right;width:60px;height:55px;border-left:dashed 1px rgba(0,0,0,0.1);}
 .header-style-1 .header-2 i{width:60px;height:55px;line-height:57px;text-align:center;}
+.header-style-1 .header-2 .items {color:white;background: #f06d00;border-radius: 50%;height: 16px;width: 16px;font-size: 10px;text-align:center;line-height: 17px;position: absolute;top: 10px;left:23px;}
 .header-clear{height:60px;}
 .header-clear-large{height:90px;}
 .image-column-left{margin-bottom:5px;padding-right:0;}
